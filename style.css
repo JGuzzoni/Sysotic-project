@@ -1,0 +1,110 @@
+body {
+  font-family: 'Sen', sans-serif;
+  margin: 0;
+  display: flex;
+}
+
+header h1 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+header p {
+  font-size: 16px;
+}
+
+.page, .logoSysotic{
+  display: flex;
+  width: 525px;
+  padding: 50px 92px 220px 92px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #FFF;
+  box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.25);
+}
+
+.logoSysotic{
+  box-shadow: none;
+}
+
+.infoLogin {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+fieldset {
+  border: none;
+  width: 342px;
+  height: 80px;
+  border-radius: 8px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 120px;
+}
+
+.input-wrapper label {
+  color: var(--light-label-secondary, #6b6b72);
+  font-size: 12px;
+  letter-spacing: 0.4px;
+}
+
+.input-wrapper input {
+  display: flex;
+  width: 342px;
+  height: 56px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid var(--light-separator-separator, #E5E5EA);
+  background: var(--light-background-secondary, #FFF);
+  margin-bottom: 24px;
+}
+
+.logoSysotic {
+  position: flex;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.send-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.infoLogin button {
+  display: flex;
+  color: #FFF;
+  width: 159px;
+  height: 40px;
+  padding: 10px 16px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: var(--system-blue-primary-dark, #004AFF);
+  border: none;
+  cursor: pointer;
+}
+
+.infoLogin button:hover {
+  background: var(--system-blue-primary-dark, #013aca);
+}
+
+.infoLogin a {
+  margin-top: 24px;
+  text-decoration: none;
+  color: var(--system-blue-primary-default, #007AFF);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
